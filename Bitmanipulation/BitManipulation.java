@@ -18,18 +18,4 @@ class BitManipulation {
         return n;
 
     }
-     public static boolean isPowerOfTwo(long n) {
-        if(n>0 && (n&(n-1))==0){
-            return true;
-        }
-        return false;
-    }
-    public static int countSetBits(long n){
-        int count=0;
-        while(n>0){
-            count+=(n&1);
-            n>>=1;
-        }
-        return count;
-    }
-}
+    
