@@ -31,5 +31,6 @@ class BitManipulation {
            n>>=1;
        }
        return count;
+       
 }
 }
