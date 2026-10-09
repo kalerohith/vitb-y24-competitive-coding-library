@@ -18,9 +18,6 @@ class BitManipulation {
         return n;
 
     }
-<<<<<<< HEAD
-    
-=======
 
     public static boolean isPowerOfTwo(long n) {
         if (n > 0 && (n & (n - 1)) == 0) {
@@ -38,4 +35,3 @@ class BitManipulation {
         return count;
     }
 }
->>>>>>> 656c98ca8626ca3c3eaf8ec57582828edd800372
